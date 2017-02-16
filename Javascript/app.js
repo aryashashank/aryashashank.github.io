@@ -11,9 +11,8 @@ $(document).ready(function() {
   $("html body").animate({
     backgroundColor: "#00cc44"
   });
-});
-
-$("#button-right").on('click', function() {
+  
+  $("#button-right").on('click', function() {
   do {
     a = Math.floor(Math.random() * (8 - 0 + 1)) + 0;
   }
@@ -42,3 +41,6 @@ $("#button-right").on('click', function() {
   }, 1000);
 
 });
+  
+});
+
